@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reena's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5ff;
+      color: #333;
+    }
+    header {
+      background: #6C63FF;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #6C63FF;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .about, .projects, .contact {
+      margin-bottom: 3rem;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #6C63FF;
+      margin-bottom: 1rem;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+    .project-card p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Reena Yadav</h1>
+    <p>Creative Web Developer & Craft Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="service.html">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi! I'm Reena, a B.Tech student with a passion for crafting beautiful websites and artistic models. I love mixing creativity with technology. I specialize in web development, Java, and adding an artistic touch to every project.</p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>My Portfolio</h3>
+        <p>A personal portfolio website with admin panel to manage content, certificates, and gallery.</p>
+      </div>
+      <div class="project-card">
+        <h3>Art & Craft Gallery</h3>
+        <p>Showcased my handmade jhulas, cards, and craft items with filter options using JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI-Based Web App</h3>
+        <p>Developed a smart website integrating basic AI features for better user interaction.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>You can reach me via email at <strong>reenayadav@example.com</strong> or connect with me on LinkedIn!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Reena Yadav. All rights reserved.
+  </footer>
+
+</body>
+</html>
